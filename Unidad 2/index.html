@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Sabritas Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+  <div class="container_1">
+    <div class="wrapper">
+      <div class="one">
+        <div class="container">
+          <div class="row">
+            <div class="loginicon col">
+              <div class="container mt-3">
+                <div class="row">
+                  <div class="sing col-2 me-4"> <button class="btn btn-primary"><a href="singForm.html"
+                        style="color: white;">SingIn</a></button>
+                  </div>
+                  <div class="login col-2">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Login
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+            <div class="logo col" style="float: right;margin-right: 30px;">
+              <a href="index.html"><img src="public//logo.png" height="150px"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="two">
+        <div class="menu">
+          <div class="firstElement menu-item">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="firstElement menu-item">
+            <a href="doritos.html">Doritos</a>
+          </div>
+          <div class="firstElement menu-item">
+            <a href="sabritas.html">Sabritas</a>
+          </div>
+          <div class="firstElement menu-item">
+            <a href="churromais.html">Churromais</a>
+          </div>
+          <div class="firstElement menu-item">
+            <a href="ruffles.html">Ruffles</a>
+          </div>
+        </div>
+      </div>
+      <div class="three">
+        <div class="area">
+          <h1 class="text">Bienvenido!!!</h1>
+          <hr>
+          <div style="padding: 15px;">
+            <p class="text"> Sabritas es una marca mexicana de snack foods reconocida por su amplia variedad de
+              productos
+              y su sabor
+              único e inigualable. Desde su fundación en 1940, Sabritas se ha convertido en una de las marcas de snack
+              más
+              populares de México, y ha expandido su presencia a nivel internacional. La marca ofrece una amplia gama de
+              productos, incluyendo papas fritas, botanas, crackers, chicles y mucho más. Todos los productos de
+              Sabritas
+              son elaborados con ingredientes de alta calidad y son sometidos a rigurosos controles de calidad para
+              garantizar la satisfacción del cliente.</p>
+            <p>Además, la marca se esfuerza por ser responsable y sostenible, y ha
+              implementado prácticas sostenibles en su cadena de suministro y producción. En resumen, Sabritas es una
+              marca de snack de calidad que ofrece una amplia gama de productos con un sabor único y reconocido en todo
+              el
+              mundo.</p>
+          </div>
+          <div class="bannerMain">
+            <img src="public//bammer2.png">
+          </div>
+        </div>
+      </div>
+      <div class="four">
+        <h3 class="text"><a style="color: white;" href="https://www.linkedin.com/in/isaacvzmtz/">Uriel Isaac Vaquez
+            Martinez</a></h3>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="miFormulario">Ingresa tu Usuario y Contrasenia</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form class="form-control" id="miFormulario">
+          <div class="modal-body">
+            <div class="form-group">
+              <label class="form-label mt-4" for="inputValid"><b>Usuario:</b></label>
+              <input type="text" placeholder="Usuario" name="usuario" id="usuario" class="form-control" id="inputValid">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label mt-4" for="inputValid"><b>Password:</b></label>
+              <input type="password" placeholder="Password" name="password" id="password " class="form-control">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="submit" class="btn btn-success">Log In</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js.js" type="module"> </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- <script src="formcontrol.js"> </script> -->
+</body>
+
+</html>
